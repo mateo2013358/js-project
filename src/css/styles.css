@@ -5,4 +5,11 @@
   |============================
 */
 /* Common styles */
-
+@import "./verible.css";
+@import "./base/conteiner.css";
+@import "./base/base.css";
+@import "./layout/categories.css";
+@import "./layout/gallery.css";
+@import "./layout/header.css";
+@import "./layout/hero.css";
+@import "./layout/popular.css";
