@@ -1,0 +1,22 @@
+@media screen and (max-width:770px) {
+    body.off{
+        overflow: hidden;
+    } 
+    .header {
+        display: flex;
+        padding-top: 20px;
+    }
+    .header-nav{display: none;}
+    .header-burger-menu{
+        border: none;
+        background-color: transparent;
+        
+    }
+    .header-burger-menu-icon{
+        stroke: black;
+
+    }
+    .header-burger-menu-icon:hover{
+        stroke: chartreuse;
+    }
+}
