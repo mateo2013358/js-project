@@ -19,4 +19,126 @@
     .header-burger-menu-icon:hover{
         stroke: chartreuse;
     }
+
+    .header-basket-order{
+        border: none;
+        background-color: transparent;
+        
+    }
+    .header-busket-icon {
+        stroke: black;
+
+    }
+    .header-busket-icon:hover{
+        stroke: chartreuse;
+    } 
+    .swich{
+        display: none;
+    }
+    .header-modal{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 100 ;
+        top: 0 ;
+        right: 0;
+        width: 100%;
+        height: 100%;
+
+        background-color: #9BB537;
+    }
+    .header-close-menu{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        border: none;
+        background-color: transparent;
+
+    }
+    .header-close-menu-icon {
+        stroke: white;
+    }
+    .nav-modal{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 20px;
+        padding-top: 200px;
+        font-family: Inter;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+
+    }
+    .modal-favorite{
+        color: aliceblue;
+    }
+    .modal-home{
+        color: aliceblue;
+    }
+    .swich-mobile{
+        position: relative;
+        width: 46px;
+        height: 20px;
+        margin: 20px;
+    }
+    .check-dark-mobile{
+        display: none;      
+    }
+    .check-round-mobile{
+        position: absolute;
+        display: inline-block;
+        cursor: pointer;
+        width: 46px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #CECDCD;
+        border-radius: 34px;
+    }
+    .check-round-mobile::before{
+        content: "";
+        position: absolute;
+        height: 19px;
+        width: 19px;
+        left: 0.5px;
+        bottom: 0.5px;
+        background-color: #F8F8F8;
+ border-radius: 36px;
+    }
+}
+.header-cointeiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.header-nav-menu{
+    display: flex;
+    gap: 16px;
+    font-family: Inter;
+font-weight: 500;
+font-style: Medium;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 0%;
+
+
+}
+
+.header-nav-home{
+    color: #9BB537;
+}
+.header-nav-favorites{
+    color: black;
+}
+.header-basket-order{
+    border: none;
+    background-color: transparent;
+    
 }
